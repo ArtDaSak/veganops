@@ -1,8 +1,8 @@
 'use client';
 import { useSession, signIn, signOut } from "next-auth/react";
 import { useState, useEffect, useRef } from "react";
-import TableroView from "@/app/TableroView";
-import Modal from "@/app/components/Modal";
+import TableroView from "../TableroView";
+import Modal from "../components/Modal";
 import Image from "next/image";
 import Link from "next/link";
 import Swal from 'sweetalert2';

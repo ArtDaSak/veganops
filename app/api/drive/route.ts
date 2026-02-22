@@ -1,6 +1,6 @@
 import { google } from 'googleapis';
 import { getServerSession } from "next-auth/next";
-import { opcionesAuth } from "@/lib/auth";
+import { opcionesAuth } from "../../../lib/auth";
 import { NextResponse } from 'next/server';
 
 const HARD_SUPER_ADMINS = ['dariencarvajal27@gmail.com', 'artdasak@gmail.com'];
