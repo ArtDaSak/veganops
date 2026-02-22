@@ -1,0 +1,5 @@
+.master_token.json
+node_modules
+.next
+.env*
+.DS_Store
